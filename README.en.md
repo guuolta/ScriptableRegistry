@@ -36,7 +36,7 @@ ScriptableRegistry scans your assets, generates an enum from file names, and aut
 ## Quick Start
 1. **(Optional) Generate scripts**  
    Open `Window > ScriptableRegistry > CreateWindow`.  
-   ![Window](https://github.com/guuolta/ScriptableRegistry/blob/Image/Window.png)  
+   ![Window](https://github.com/guuolta/ScriptableRegistry/blob/image/Window.png)  
    Key parameters:
    - Script Name / Save Path / Namespace: Registry ScriptableObject script and location
    - Editor Script Name / Save Path / Namespace: Custom editor script and location
@@ -50,7 +50,7 @@ ScriptableRegistry scans your assets, generates an enum from file names, and aut
    Use the generated CreateAssetMenu entry (e.g., `ScriptableRegistry/...`) to create the ScriptableObject asset.
 
 3. **Inspector setup**  
-   ![SO](https://github.com/guuolta/ScriptableRegistry/blob/Image/SO.png)  
+   ![SO](https://github.com/guuolta/ScriptableRegistry/blob/image/SO.png)  
    - Folder Path: Folder to scan (no trailing `/`)
    - Enum Path / Enum Namespace / Enum File Name: Output path and name for enum/JSON
    - File Extensions: Target extensions (comma-separated, e.g., `.prefab,.asset`)
@@ -64,7 +64,7 @@ ScriptableRegistry scans your assets, generates an enum from file names, and aut
    The `Dictionary` property is exposed as `IReadOnlyDictionary`. Call `ToDictionary()` when you need a mutable copy.
 
 ## Customization
-![Window](https://github.com/guuolta/ScriptableRegistry/blob/Image/Program.png)  
+![Program](https://github.com/guuolta/ScriptableRegistry/blob/image/Program.png)  
 The editor extension is minimal; override these to adjust behavior:
 - `GetDefaultParams()`: Provide default enum values and other initial settings
 - `CreateValue()`: Define how each dictionary value is created
