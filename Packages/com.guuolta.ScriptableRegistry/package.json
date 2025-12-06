@@ -1,0 +1,12 @@
+{
+  "name": "com.guuolta.scriptableregistry",
+  "displayName": "Scriptable Registry",
+  "version": "0.1.0",
+  "unity": "6000.3",
+  "unityRelease": "0f1",
+  "description": "Auto-generate enums and registries from assets.",
+  "author": {
+    "name": "guuolta",
+    "url": "https://github.com/guuolta"
+  }
+}

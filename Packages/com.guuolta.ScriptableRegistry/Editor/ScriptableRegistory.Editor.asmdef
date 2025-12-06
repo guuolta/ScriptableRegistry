@@ -1,0 +1,25 @@
+{
+    "name": "ScriptableRegistory.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ba09e98ebd9cd42989b054a6184df046",
+        "GUID:33661e06c33d31b4c9223810bf503247"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.zstring",
+            "expression": "0.0.0",
+            "define": "USE_ZSTRING"
+        }
+    ],
+    "noEngineReferences": false
+}

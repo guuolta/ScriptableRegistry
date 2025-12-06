@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9a80bdee8924a08a6a213e33ecf72f, type: 3}
+  m_Name: BlockRegisterObject
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableRegistry.Sample.Block.BlockRegisterObject
+  _folderPath: Assets/Sample/Block
+  _enumPath: Assets/Sample/Scripts/Block
+  _enumNameSpace: ScriptableRegistry.Sample.Block
+  _enumFileName: BlockType
+  _fileExtensions:
+  - _value: prefab
+  _ignoreFolderNames:
+  - IgnoreBlockFolder
+  - IgnoreBlockFolder2
+  _dictionary:
+    _pairs:
+    - Key: 0
+      Value: {fileID: 2188051976897310274, guid: 3c64e240587654fc6990f604cb5caa11, type: 3}
+    - Key: 1
+      Value: {fileID: 9100088415545952267, guid: 99c1989a1819c4216aa30286981ad07a, type: 3}
+    - Key: 2
+      Value: {fileID: 7738712007341886337, guid: 832c3bb2c92634ae18bd9c107022f50d, type: 3}
+    - Key: 3
+      Value: {fileID: 2502581859060911200, guid: b23137a90e4d74636874a9ffd0492798, type: 3}
+    - Key: 4
+      Value: {fileID: 4140697823752050284, guid: eb4db97aaf47d4c5ba291e102e7696d4, type: 3}

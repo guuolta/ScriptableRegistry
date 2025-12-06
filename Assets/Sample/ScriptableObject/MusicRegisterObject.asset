@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12ec65bc0104232b71c0bb16df5bd5e, type: 3}
+  m_Name: MusicRegisterObject
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableRegistry.Sample.Music.MusicRegisterObject
+  _folderPath: Assets/Sample/Music
+  _enumPath: Assets/Sample/Scripts/Music
+  _enumNameSpace: ScriptableRegistry.Sample.Music
+  _enumFileName: MusicType
+  _fileExtensions:
+  - _value: mp3
+  _ignoreFolderNames: []
+  _dictionary:
+    _pairs:
+    - Key: 7
+      Value: {fileID: 8300000, guid: e1a6d0587ad5b4df6abd5f0b66c7bfe1, type: 3}
+    - Key: 8
+      Value: {fileID: 8300000, guid: 6efb8026841d2473288d4d07e093c1be, type: 3}
+    - Key: 2
+      Value: {fileID: 8300000, guid: 6ebd2bfeb2d5b44c886b8ab5027e7b7c, type: 3}

@@ -1,0 +1,32 @@
+[
+  {
+    "RawName": "None",
+    "Name": "None",
+    "Num": 5
+  },
+  {
+    "RawName": "Block1",
+    "Name": "Block1",
+    "Num": 0
+  },
+  {
+    "RawName": "Block2",
+    "Name": "Block2",
+    "Num": 1
+  },
+  {
+    "RawName": "Block3",
+    "Name": "Block3",
+    "Num": 2
+  },
+  {
+    "RawName": "Block4",
+    "Name": "Block4",
+    "Num": 3
+  },
+  {
+    "RawName": "Block5",
+    "Name": "Block5",
+    "Num": 4
+  }
+]
