@@ -12,6 +12,7 @@ ScriptableRegistry scans your assets, generates an enum from file names, and aut
 
 ## Requirements
 - Unity 6000.3 or newer
+- Verified on Unity 2022.3.62f3
 - Supports UPM local and Git installations
 
 ## Installation
