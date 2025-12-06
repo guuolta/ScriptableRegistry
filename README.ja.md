@@ -36,7 +36,7 @@ Unity のアセットを走査して、ファイル名から生成した Enum �
 ## クイックスタート
 1. **（任意）スクリプトの自動生成**  
    `Window > ScriptableRegistry > CreateWindow` を開きます。  
-   ![Window](https://github.com/guuolta/ScriptableRegistry/blob/Image/Window.png)  
+   ![Window](https://github.com/guuolta/ScriptableRegistry/blob/image/Window.png)  
    主なパラメータ:
    - Script Name / Save Path / Namespace: レジストリ ScriptableObject のスクリプト名と保存先
    - Editor Script Name / Save Path / Namespace: カスタムエディタのスクリプト名と保存先
@@ -50,7 +50,7 @@ Unity のアセットを走査して、ファイル名から生成した Enum �
    生成された CreateAssetMenu（例: `ScriptableRegistry/...`）から ScriptableObject アセットを作成します。
 
 3. **インスペクター設定**  
-   ![SO](https://github.com/guuolta/ScriptableRegistry/blob/Image/SO.png)  
+   ![SO](https://github.com/guuolta/ScriptableRegistry/blob/image/SO.png))  
    - Folder Path: 走査するフォルダ（末尾 `/` 不要）
    - Enum Path / Enum Namespace / Enum File Name: Enum/JSON の出力先と名前
    - File Extensions: 対象拡張子（カンマ区切り、例 `.prefab,.asset`）
@@ -64,7 +64,7 @@ Unity のアセットを走査して、ファイル名から生成した Enum �
    ScriptableObject の `Dictionary` プロパティは `IReadOnlyDictionary` として公開され、`ToDictionary()` で通常の `Dictionary` を取得できます。
 
 ## スクリプトのカスタマイズ
-![Window](https://github.com/guuolta/ScriptableRegistry/blob/Image/Program.png)  
+![Window](https://github.com/guuolta/ScriptableRegistry/blob/image/Program.png)  
 エディタ拡張は最小限の実装です。必要に応じて以下をオーバーライドして振る舞いを調整できます。
 - `GetDefaultParams()`: Enum のデフォルト値など、初期設定を返す
 - `CreateValue()`: 辞書に格納する値の生成方法をカスタマイズ
